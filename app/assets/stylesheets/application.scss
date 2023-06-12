@@ -1,0 +1,442 @@
+* {
+    margin: 0;
+    padding: 0;
+    }
+    .head{
+        background-color: #eaeaea;
+        width: 100%;
+        float: left;
+    }
+    .left_column{
+        float: left;
+        height: 56.44px;
+        width: 30%;
+        background-color: #dadada;
+        position: relative;
+       
+    }
+    .min_max_close_btns{
+        display: inline-block;
+        margin-left: 3px;
+        position: relative;
+    }
+    
+    .min_max_close_btns .btn{
+        display: inline-block;
+    }
+
+    .backward{
+        position: absolute;
+        top: 20px;
+        display: inline-block;
+        margin-left: 17px;
+    }
+    .play_btn{
+        position: absolute;
+        display: inline-block;
+        top: 17px;
+        left: 10pc;
+    }
+
+    .range_btn{
+        display: inline-block;
+        margin-top: 20px;
+        margin-bottom: 15px;
+        position: absolute;
+        left: 18pc;
+    }
+    .forward{
+        position: absolute;
+        display: inline-block;
+        left: 12.5pc;
+        top: 20px;
+    }
+
+    .middle_column{
+        width: 40%;
+        float: left;
+        height: 56.44px;;
+        text-align: center;
+        position: relative;
+    }
+    .apple_logo{
+        margin-top: 10px;
+    }
+    .list{
+        padding: 10px 5px 10px 5px;
+        float: right;
+    }
+    .list-anchor{
+        float: right;
+    }
+    .right_column{
+        width: 30%;
+        float: right;
+        height: 56.441px;
+        background-color: #dadada;
+    }
+    .user{
+        float: left;
+    }
+    .text{
+        float: left;
+        margin-left: 5px;
+        text-decoration: none;
+        color: #000;
+        margin-top: 2px;
+    }
+    .details_user{
+        float: right;
+        padding: 18px 0px 18px 0px;
+    }
+    .close_btn{
+        float: right;
+        margin-top: 3px;
+        margin-right: 10px;
+    }
+    .search{
+        float: right;
+        margin-top: 15px;
+        margin-left: 17px;
+        position: relative;
+        margin-right: 20px;
+      }
+    .search input{
+        border-radius: 6.25em;
+        text-align: left;
+        padding-left: 35px;
+        height: 23px;
+        width: 140px;
+      }
+
+    .search_image{
+        position: absolute;
+        top: 6px;
+        left: 11px;
+      }
+
+    .clearfix{
+        clear: both;
+    }
+
+
+    .sub_header{
+        width: 100%;
+        float: left;
+        border-bottom : 1px solid gray;
+    }
+    .navigate_btns {
+        float: left;
+        width: 30%;
+        padding-top: 5px;
+        padding-left: 5px;
+        box-sizing: border-box;
+    }
+    .navigate_txt{
+        float: left;
+        width: 40%;
+        text-align: center;
+    }
+    .navigate_right_txt{
+        float: right;
+        width: 30%;
+        text-align: right;
+    }
+
+    .navigate_btns .nav_btn{
+        float: left;
+        margin-right: 6px;
+    }
+    .nav_btn a{
+        display: inline-block;
+        padding: 5px;
+        width: 22px;
+        height: 22px;
+        text-align: center;
+        border-radius: 4px;
+    }
+    .nav_btn a:hover{
+        background-color: #b3cee5;
+    }
+    
+
+    .navigate_txt .nav_txt{
+        display: inline-block;
+        padding: 10px;
+        
+        
+    }
+    .nav_txt .hover_style:hover{
+        background-color: #b3cee5;
+    }
+    .navigate_txt .nav_txt .hover_style{
+        text-decoration: none;
+        color: #000;
+        padding: 10px;
+
+    }
+    .navigate_right_txt .txt{
+        margin-top: 8px;
+        display: inline-block;
+    }
+    .navigate_right_txt .txt .link{
+        margin-left: 10px;
+        margin-right: 15px;
+        text-decoration: none;
+        color: #2196f3;
+    }
+    .navigate_right_txt .txt .link_rating{
+        margin-left: 10px;
+        margin-right: 15px;
+        text-decoration: none;
+        color: #2196f3;
+    }
+    .album_icon{
+        display: inline-block;
+        position: relative;
+
+        
+    }
+    .album_icon .anchor_albumicon{
+        text-decoration: none;
+        color: #000;
+        margin-right: 11px;
+        padding: 10px 5px 10px 5px;
+    }
+    .stars img{
+        padding-left: 3px
+    }
+    
+
+
+    .navigation_bar{
+        width: 15%;
+        border-right: 1px solid gray;
+        float: left;
+        height: 937px;
+        position: relative;
+    }
+
+    .library .heading{
+        color: grey;
+        font-size: medium;
+        margin: 5px 5px 0px 10px;
+    }
+    .playlist{
+        margin-top: 5px;
+    }
+
+    .playlist .heading{
+        color: grey;
+        font-size: medium;
+        margin: 20px 5px 0px 10px;
+    }
+    .songs_list a{
+        text-decoration: none;
+        color: black;
+        padding: 5px;
+        margin-top: 3px;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        display: block;
+        overflow: hidden;
+        
+    }
+    .songs_list a img{
+        position: relative;
+        top: 4px;
+        margin-right: 5px;
+    }
+
+    .songs_list a:hover{
+        background-color: #b3cee5;
+    }
+
+    .main_content{
+        float: left;
+        width: 84.9%;
+        box-sizing: border-box;
+        padding: 20px 35px;
+    }
+    .album{
+        float: left;
+        width: 16%;
+        box-sizing: border-box;
+        padding: 25px;
+    }
+    .album_pic a{
+        text-decoration: none;  
+        color: black;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        display: block;
+        overflow: hidden;
+        padding-left: 3px
+    }
+
+    .album_pic img {
+        width: 100%;
+        
+    }
+
+    .album_info{
+        margin-top: 5px;
+        margin-bottom: 5px;
+        padding-left: 3px
+    }
+    .album_info h4 a{
+        text-decoration: none;
+        color: black;
+        display: block;
+    }
+    .sub_heading{
+        color: grey;
+        font-size: medium;
+        text-decoration: none;
+      }
+    .nav_left_btns .plus{
+        /* margin-top: 300px; */
+        position: absolute;
+        bottom: 0;
+        left: 10px;
+      }
+      .nav_left_btns .set{
+        position: absolute;
+        bottom: 0;
+        left: 50px;
+      }
+      .foot{
+        height: 35px;
+        text-align: center;
+        font-size: small;
+        font-weight: bold;
+        background-color: #dcdcdc;
+        line-height: 35px;
+        
+      }
+
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: white;
+        min-width: 120px;
+        box-shadow: 1px 2px 4px 1px;
+        z-index: 1;
+        top: 100%;
+      }
+      .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+        border-bottom: 1px solid grey;
+      }
+      .user_info{
+        position: relative;
+        float: right;
+        margin-right: 50px;
+      }
+      .user_info a:hover , .dropdown-content a:hover{
+        background-color: #b3cee5 ;
+      }
+      .user_info:hover .dropdown-content{
+        display: block;
+      }
+      .dropdown_list{
+        display: none;
+        position: absolute;
+        background-color: white;
+        min-width: 100px;
+        box-shadow: 1px 2px 4px 1px;
+        z-index: 1;
+        right: 0;
+        top: 50%;
+      }
+      .dropdown_list a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+        border-bottom: 1px solid grey;
+      }
+      .list-anchor:hover , .dropdown_list a:hover{
+        background-color: #b3cee5 ;
+      }
+
+      .dropdown_album{
+        display: none;
+        position: absolute;
+        background-color: white;
+        min-width: 76px;
+        box-shadow: 1px 2px 4px 1px;
+        z-index: 1;
+        top: 31px;
+        right: 11px;
+      }
+      .dropdown_album a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+        border-bottom: 1px solid grey;
+      }
+      .anchor_albumicon:hover , .dropdown_album a:hover{
+        background-color: #b3cee5 ;
+      } 
+
+      .dropdown_volume{
+        display: none;
+        position: absolute;
+        background-color: white;
+        min-width: 26px;
+        box-shadow: 1px 2px 4px 1px;
+        z-index: 1;
+        bottom: 31px;
+        left: 11px;
+      }
+      .dropdown_volume a{
+        color: black;
+        padding: 6px 10px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+        border-bottom: 1px solid grey;
+      }
+      .nav_left_btns a:hover ,.dropdown_volume a:hover{
+        background-color: #b3cee5 ;
+      }
+      .dropdown_settings{
+        display: none;
+        position: absolute;
+        background-color: white;
+        min-width: 100px;
+        box-shadow: 1px 2px 4px 1px;
+        z-index: 1;
+        bottom: 31px;
+        left: 50px;
+      }
+      .dropdown_settings a{
+        color: black;
+        padding: 6px 10px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+        border-bottom: 1px solid grey;
+      }
+      .dropdown_settings a:hover{
+        background-color: #b3cee5 ;
+      }
+      .show{
+        display: block;
+      }
+      
+
+
+    
+
+
+
+    

@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Digitaiz Music</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <header class="head">
+        <div class="left_column">
+            <div class="min_max_close_btns">
+                <div class="btn"><a href="#"><img src="./assets/close.png" alt="close button"></a></div>
+                <div class="btn"><a href="#"><img src="./assets/minimize.png" alt="minimize button"></a></div>
+                <div class="btn"><a href="#"><img src="./assets/maximize.png" alt="maximize button"></a></div>
+            </div>
+            <div class="backward">
+                <a href="#"><img src="./assets/dubl-arow-left.png" alt="backward button"></a>
+            </div>
+            <div class="play_btn">
+                <a href="#"><img src="./assets/black-arow.png" alt="play button"></a></div>
+            <div class="forward">
+                <a href="#"><img src="./assets/dubl-arow-right.png" alt="forward button"></a></div>
+            <div class="range_btn">
+                <input type="range" ></div>
+                <div class="clearfix"></div>
+        </div>
+
+        <div class="middle_column">
+            <a href="#"><img class="apple_logo" src="./assets/apple.png" alt="apple logo"></a>
+            <a href="#" class="list-anchor" onclick="toggleDropdown(event)"><img class="list" src="./assets/list.png" alt="list"></a>
+            <div class="dropdown_list">
+                <a href="#">Link1</a>
+                <a href="#">Link2</a>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+
+        <div class="right_column">
+            <div class="close_btn">
+                <a href="#"><img src="./assets/dubl-arow.png" alt="list"></a>
+                <div class="clearfix"></div>
+            </div>
+            <div class="search">
+                <input type="text" placeholder="Search Library">
+                <a href="#"><img class="search_image" src="./assets/search.png" alt=""></a>
+                <div class="clearfix"></div>
+            </div>
+            <div class="user_info">
+                <a href="#" class="details_user"><img class="user" src="./assets/user.png" alt="User"><span class="text">Hunan </span><img class="down_arrow" src="./assets/down-arow.png" alt="dropdown"></a>
+                <div class="dropdown-content">
+                    <a href="#">Link 1</a>
+                    <a href="#">Link 2</a>
+                    <a href="#">Link 3</a>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </header>
+
+    <div class="clearfix"></div>
+
+    <div class="sub_header">
+        <div class="navigate_btns">
+            <div class="nav_btn"><a href="#"><img src="./assets/music2.png" alt=""></a></div>
+            <div class="nav_btn"><a href="#"><img src="./assets/vedio.png" alt=""></a></div>
+            <div class="nav_btn"><a href="#"><img src="./assets/screen.png" alt=""></a></div>
+            <div class="nav_btn"><a href="#"><img src="./assets/dotes.png" alt=""></a></div>
+            <div class="clearfix"></div>
+        </div>
+        <div class="navigate_txt">
+            <div class="nav_txt"><a class="hover_style" href="#">My Music</a></div>
+            <div class="nav_txt"><a class="hover_style" href="#">Playlists</a></div>
+            <div class="clearfix"></div>
+        </div>
+        <div class="navigate_right_txt">
+            <div class="txt">Sort by:<a class="link" href="#">Artist </a><span>| </span><a class="link_rating" href="#">Ratings</a></div>
+            <div class="album_icon">
+                <a class="anchor_albumicon" onclick="toggleDropdownalbum(event)" href="#">Album <img src="./assets/down-arow2.png" alt=""></a>
+                <div class="dropdown_album">
+                    <a href="#">album1</a>
+                    <a href="#">album2</a>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+        
+    </div>
+
+    <div class="clearfix"></div>
+
+    <section>
+        <nav class="navigation_bar">
+            <div class="library">
+                <div class="heading">Library</div> 
+                <ul class="songs_list">
+                    <li><a href="#"><img src="./assets/setting.png" alt="">90s Music</a></li>
+                </ul>
+                
+            </div>
+            <div class="playlist">
+                <div class="heading">Playlists</div>
+                <ul class="songs_list">
+                    <li><a href="#"><img src="./assets/setting.png" alt="">Genius</a></li>
+                    <li><a href="#"><img src="./assets/setting.png" alt="">90s Music</a></li>
+                    <li><a href="#"><img src="./assets/setting.png" alt="">Classical Music</a></li>
+                    <li><a href="#"><img src="./assets/setting.png" alt="">Music Videos</a></li>
+                    <li><a href="#"><img src="./assets/setting.png" alt="">My Top Rated</a></li>
+                    <li><a href="#"><img src="./assets/setting.png" alt="">Recently Added</a></li>
+                    <li><a href="#"><img src="./assets/itune.png" alt="">Itune Artwork Music Songs Digitaiz Ever</a></li>
+                    <li><a href="#"><img src="./assets/itune.png" alt="">Itune Artwork Music</a></li>
+                    <li><a href="#"><img src="./assets/itune.png" alt="">Itune Artwork Music</a></li>
+                    <li><a href="#"><img src="./assets/itune.png" alt="">Itune Artwork Music</a></li>
+                    <li><a href="#"><img src="./assets/itune.png" alt="">Itune Artwork Music</a></li>
+                    <li><a href="#"><img src="./assets/itune.png" alt="">Itune Artwork Music</a></li>
+                    <li><a href="#"><img src="./assets/itune.png" alt="">Itune Artwork Music</a></li>
+                    <li><a href="#"><img src="./assets/itune.png" alt="">Itune Artwork Music</a></li>
+                    <li><a href="#"><img src="./assets/itune.png" alt="">Itune Artwork Music</a></li>
+                    <li><a href="#"><img src="./assets/itune.png" alt="">Playlists</a></li>
+                </ul>
+            </div>
+            <div class="nav_left_btns">
+                <a href="#" onclick="toggleDropdownvolume(event)"><img class="plus" src="./assets/pkus.png" alt=""></a>
+                <div class="dropdown_volume">
+                    <a href="#">1</a>
+                    <a href="#">2</a>
+                    <a href="#">3</a>
+                    <a href="#">4</a>
+                </div>
+                <a href="" onclick="toggleDropdownsetting(event)"><img class="set" src="./assets/setting2.png" alt=""></a>
+                <div class="dropdown_settings">
+                    <a href="#">sorting</a>
+                    <a href="#">menu</a>
+                </div>
+             <div class="clearfix"></div>
+        </nav>
+        
+
+        <main class="main_content">
+            <div class="album" data-rating="4">
+                <div class="album_pic">
+                    <a href="#"><img src="./assets/1.png" alt=""></a>
+                    
+                </div>
+                <div class="album_info">
+                    <h4><a href="#"></a></h4>
+                    <a class="sub_heading" href="#"></a>
+                </div>
+                <div class="stars">
+                    <a href="#"><img src="./assets/star.png"><img src="./assets/star.png"><img src="./assets/star.png"><img src="./assets/star.png"><img src="./assets/star2.png"></a>
+                </div>
+                <div class="clearfix"></div> 
+            </div>
+            
+        </main>
+        <div class="clearfix"></div>    
+    </section>
+    <div class="clearfix"></div>
+
+    <footer class="foot">
+        9 albums,40 minutes,47.9mb
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+
+    <script src="application.js"></script>
+    
+</body>
+</html>
+
+
+<script>
+    $(document).ready(function() {
+        var albumContainer = $('.album');
+
+        $.ajax({
+            url: '/admin/albums.json',
+            type: 'GET',
+            dataType: 'json',
+            success: function(data) {
+                console.log('Retrieved data:', data); 
+
+                var html = '';
+
+                
+                $.each(data, function(index, music) {
+                    html += '<div class="album" data-rating="' + music.rating + '">';
+                    html += '<div class="album_pic">';
+                    html += '<a href="#"><img src="' + /assets/+music.img_url + '" alt="Album Image"></a>';
+                    html += '</div>';
+                    html += '<div class="album_info">';
+                    html += '<h4><a href="#">' + music.album_name + '</a></h4>';
+                    html += '<a class="sub_heading" href="#">' + music.artist_name + '</a>';
+                    html += '</div>';
+                    html += '<div class="stars">';
+                    for (var i = 0; i < music.rating; i++) {
+                        html += '<img src="./assets/star.png">';
+                    }
+                    for (var i = music.rating; i < 5; i++) {
+                        html += '<img src="./assets/star2.png">';
+                    }
+                    html += '</div>';
+                    html += '<div class="clearfix"></div>';
+                    html += '</div>';
+                });
+
+                albumContainer.replaceWith(html);
+            },
+            error: function() {
+                albumContainer.html('Error retrieving album data.');
+            }
+        });
+    });
+
+         function handleSearchInput() {
+            const searchText = this.value.toLowerCase();
+
+            albums.forEach(handleAlbum);
+
+            function handleAlbum(album) {
+                const heading = album.querySelector('.album_info h4 a');
+                const headingText = heading.textContent.toLowerCase();
+
+                if (headingText.includes(searchText)) {
+                album.style.display = 'block';
+                } else {
+                album.style.display = 'none';
+                }
+            }
+            }
+
+            const searchInput = document.querySelector('.main_content .search input');
+            const albums = document.querySelectorAll('.main_content .album');
+
+            searchInput.addEventListener('input', handleSearchInput);
+            
+    
+</script>
